@@ -59,28 +59,26 @@ function tm(props) {
             position="absolute"
             bottom="19vw"
             left="41vw"
-            // onClick={() => props.setOpenedStage('labrys')}
+            onClick={() => props.setOpenedStage('labrys')}
           >
             <Image
               w="18vw"
               objectFit="cover"
               src={props.isLabrysOpened ? LabyrssOpen.src : LabyrssClose.src}
               alt=""
-              filter="grayscale(100%)"
             />
           </Box>
           <Box
             position="absolute"
             bottom="33vw"
             left="65vw"
-            // onClick={() => props.setOpenedStage('elysium')}
+            onClick={() => props.setOpenedStage('elysium')}
           >
             <Image
               w="18vw"
               objectFit="cover"
               src={props.isElysiumOpened ? ElysiumOpen.src : ElysiumClose.src}
               alt=""
-              filter="grayscale(100%)"
             />
           </Box>
         </Flex>
@@ -121,28 +119,26 @@ function tm(props) {
             position="absolute"
             bottom="26vw"
             left="43vw"
-            // onClick={() => props.setOpenedStage('labrys')}
+            onClick={() => props.setOpenedStage('labrys')}
           >
             <Image
               w="18vw"
               objectFit="cover"
               src={props.isLabrysOpened ? LabyrssOpen.src : LabyrssClose.src}
               alt=""
-              filter="grayscale(100%)"
             />
           </Box>
           <Box
             position="absolute"
             bottom="39vw"
             left="65vw"
-            // onClick={() => props.setOpenedStage('elysium')}
+            onClick={() => props.setOpenedStage('elysium')}
           >
             <Image
               w="18vw"
               objectFit="cover"
               src={props.isElysiumOpened ? ElysiumOpen.src : ElysiumClose.src}
               alt=""
-              filter="grayscale(100%)"
             />
           </Box>
         </Flex>
@@ -187,7 +183,7 @@ function tm(props) {
             position="absolute"
             bottom="36vh"
             left="42vh"
-            // onclick={() => props.setOpenedStage('labyrs')}
+            onclick={() => props.setOpenedStage('labrys')}
           >
             <Image
               w="35vw"
@@ -195,14 +191,13 @@ function tm(props) {
               src={props.isLabrysOpened ? LabyrssOpen.src : LabyrssClose.src}
               alt=""
               marginTop="6vh"
-              filter="grayscale(100%)"
             />
           </Box>
           <Box
             position="absolute"
             bottom="50vh"
             right="18vh"
-            // onClick={() => props.setOpenedStage('elysium')}
+            onClick={() => props.setOpenedStage('elysium')}
           >
             <Image
               w="35vw"
@@ -210,7 +205,6 @@ function tm(props) {
               src={props.isElysiumOpened ? ElysiumOpen.src : ElysiumClose.src}
               alt=""
               marginTop="8vh"
-              filter="grayscale(100%)"
             />
           </Box>
         </Flex>

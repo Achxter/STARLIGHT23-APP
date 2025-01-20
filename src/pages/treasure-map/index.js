@@ -43,7 +43,7 @@ function index() {
     if (stage === 'abyss') {
       setIsAbyssOpened(true);
       setCurrOpen('abyss');
-    } else if (stage === 'labyrs') {
+    } else if (stage === 'labrys') {
       setIsLabyrsOpened(true);
       setCurrOpen('labrys');
     } else if (stage === 'elysium') {
@@ -77,8 +77,14 @@ function index() {
         isElysiumOpened={isElysiumOpened}
         currOpen={currOpen}
       />
-      {currOpen !== '' ? (
-        <Popup parentH={parentH} parentW={parentW} setCurrOpen={setCurrOpen} />
+      {currOpen === 'abyss' ? (
+        <Popup parentH={parentH} parentW={parentW} setCurrOpen={setCurrOpen} currOpen={currOpen} />
+      ) : null}
+      {currOpen === 'labrys' ? (
+        <Popup parentH={parentH} parentW={parentW} setCurrOpen={setCurrOpen} currOpen={currOpen} />
+      ) : null}
+      {currOpen === 'elysium' ? (
+        <Popup parentH={parentH} parentW={parentW} setCurrOpen={setCurrOpen} currOpen={currOpen} />
       ) : null}
     </Flex>
   );

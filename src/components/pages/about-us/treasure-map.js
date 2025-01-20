@@ -1,4 +1,5 @@
-import { Button, Flex, Image, Text, keyframes } from '@chakra-ui/react';
+import { Button, Flex, Image, Text } from '@chakra-ui/react';
+import { keyframes } from '@emotion/react';
 import NextLink from 'next/link';
 
 import vidFrame from '@/asset/images/pages/about-us/frame.png';
