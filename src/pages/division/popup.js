@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Flex, keyframes, Box } from '@chakra-ui/react';
+import { Flex, Box } from '@chakra-ui/react';
+import { keyframes } from '@emotion/react';
 import { SubHeadBody } from '@/components/pages/about-us/styling/texts';
 
 //SWIPER
